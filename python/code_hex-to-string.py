@@ -21,6 +21,6 @@ while opcao == 1:
         print "String decodificada: ", decodificar(str_normal)
     if valor == 3:
         exit()
-
-print "Opcao Incorreta"
+    elif valor != 1 and valor != 2 and valor != 3:
+        print "Opção Incorreta"
 
