@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+/*
+ * Programa para calcular equações de segundo grau
+ * Por Eric Vinicius (Vinicius Saw)
+*/
 int main(){
 
   int a, b, c, resultado, raiz1, raiz2, raizdelta;
