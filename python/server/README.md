@@ -16,7 +16,7 @@ Currently we support running on these operating systems:
 
 Compilers
 ---------
-* **Default Python Compiller**, 32 bit and 64 bit. The server works only with the standard python compiler and uses the socket library
+* **Default Python2 Compiller**, 32 bit and 64 bit. The server works only with the standard python compiler and uses the socket library
 
 Dependencies
 ------------
