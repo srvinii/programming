@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+
 """
 Simple Server TCP/UDP
 By Viniicius Saw
 """
-# -*- coding: utf-8 -*-
-#!/usr/bin/env python
+
 from sys import platform
 from os import system
 import argparse
