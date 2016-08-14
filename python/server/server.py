@@ -27,7 +27,7 @@ def tcp():
         icp, client = connection.accept()
         print('Connected from', client)
         while True:
-            msg = con.recv(1024)
+            msg = conq.recv(1024)
             if not msg: break
             print(client, msg)
         print('Disconnecting connection to client', client)
