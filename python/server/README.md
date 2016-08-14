@@ -4,7 +4,7 @@ This is a basic tcp/udp server made with the simple goal of practicing the pytho
 
 Requirements
 ------------
-The server requires basically the only GNU/Linux terminal, and the python2 installed.
+The server requires basically the only GNU/Linux terminal, and the python installed.
 
 Operating systems
 -----------------
@@ -16,9 +16,9 @@ Currently we support running on these operating systems:
 
 Compilers
 ---------
-* **Default Python2 Compiller**, 32 bit and 64 bit. The server works only with the standard python compiler and uses the socket library
+* **Default Python Compiller**, 32 bit and 64 bit. The server works only with the standard python compiler and uses the socket library
 
 Dependencies
 ------------
-* **Python2**
+* **Python**
 * **Socket Library**
