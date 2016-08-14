@@ -2,6 +2,11 @@
 Simple Server TCP/UDP
 By Viniicius Saw
 """
+try:
+    raw_input
+except NameError:
+    raw_input = input
+
 import socket
 HOST = ''
 PORT = 5000
