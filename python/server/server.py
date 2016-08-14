@@ -2,12 +2,28 @@
 Simple Server TCP/UDP
 By Viniicius Saw
 """
+from sys import platform
+from os import system
+import socket
+
+green = "\033[0;32m"
+default = "\033[0m"
+
 try:
     raw_input
 except NameError:
     raw_input = input
 
-import socket
+def os():
+    if platform == "linux" or platform == "linux2":
+        system('clear')
+    elif platform == "win32":
+        system('cls')
+    else:
+        pass
+
+os()
+
 HOST = ''
 PORT = 5000
 def udp():
@@ -34,10 +50,10 @@ def tcp():
     connection.close()
 select = int(raw_input(" #1 - UDP Server\n #2 - TCP Server\n -> "))
 if select == 1:
-    print('Started UDP Server')
+    print(green, 'Started UDP Server', default)
     udp()
 elif select == 2:
-    print('Started TCP Server')
+    print(green, 'Started TCP Server', default)
     tcp()
 else:
     print('Invalid Option')
