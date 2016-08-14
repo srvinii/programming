@@ -48,12 +48,14 @@ def tcp():
             print(client, msg)
         print('Disconnecting connection to client', client)
     connection.close()
-select = int(raw_input(" #1 - UDP Server\n #2 - TCP Server\n -> "))
+select = int(raw_input(" # 1 - UDP Server\n # 2 - TCP Server\n # 3 - Exit\n -> "))
 if select == 1:
     print(green, 'Started UDP Server', default)
     udp()
 elif select == 2:
     print(green, 'Started TCP Server', default)
     tcp()
+elif select == 3:
+    exit()
 else:
     print('Invalid Option')
