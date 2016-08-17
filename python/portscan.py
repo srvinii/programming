@@ -9,7 +9,7 @@ default = "\033[0m"
 gray = "\033[0;37m"
 
 def main():
-	os()
+	#os()
 	lg()
 	arguments()
 	connect()
@@ -35,7 +35,7 @@ def lg():
 def arguments():
 	global args
 	parser = argparse.ArgumentParser()
-	print('Wellcome to Vinicius PortScan!')
+	print('Welcome to Vinicius PortScan!')
 	print('Uses -h or --help to consult commands.')
 	parser.add_argument("-i", dest="host", action="store", help="Uses -h to set a host. Ex: %(prog)s -i www.google.com")
 	parser.add_argument("-p", dest="port", action="store", help="Uses -p to set a port to scan. Ex: %(prog)s -p 80")
