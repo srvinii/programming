@@ -3,11 +3,6 @@ import socket
 from os import system
 import sys,platform
 
-green = "\033[0;32m"
-red = "\033[0;31m"
-default = "\033[0m"
-gray = "\033[0;37m"
-
 def main():
 	#os()
 	lg()
