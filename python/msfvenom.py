@@ -2,12 +2,6 @@ import argparse
 from os import system,sys
 from sys import platform
 
-# Colors ->
-gray = "\033[0;37m"
-red = "\033[0;31m"
-green = "\033[0;32m"
-default = "\033[0m"
-
 try:
     raw_input
 except NameError:
