@@ -40,7 +40,10 @@ def search():
 +\t#        #  #    ## #     # #       #    # \t+
 +\t#       ### #     # ######  ####### #     #\t+
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-v1.0
+
+[*] Version v1.0
+[*] This tool was created for locate the possibles admin pages
+[*] Author: Eric Vinicius (Viniicius Saw)
 '''
 	print "Charged [\033[0;34m%s\033[0m] Admin pages" % (len(admin_pages))
 	try:
@@ -88,3 +91,4 @@ def find(url):
 	except Exception as erro:
 		print erro
 search()
+
