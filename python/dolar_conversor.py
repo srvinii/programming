@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import requests
+import sys,subprocess
 
 def main():
 	coins()
+
+def os():
+	if sys.platform.startswith('win'):
+		subprocess.call('cls')
+	else:
+		subprocess.call('clear')
+os()
 
 print '''
  ██████╗  ██████╗ ██╗      █████╗ ██████╗                                     
